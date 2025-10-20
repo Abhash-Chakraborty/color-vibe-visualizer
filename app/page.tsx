@@ -53,7 +53,7 @@ export default function Home() {
 
         {/* Input Section */}
         <div className="w-full max-w-md mb-8">
-          <MoodInput onGenerate={generatePalette} />
+          <MoodInput onGenerate={generatePalett} />
         </div>
 
         {/* Quick Mood Buttons */}
